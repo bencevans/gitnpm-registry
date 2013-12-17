@@ -1,0 +1,31 @@
+{
+  "name": "gitnpm-registry",
+  "version": "0.0.0",
+  "description": "GitHub Backed npm registry",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:bencevans/gitnpm-registry"
+  },
+  "keywords": [
+    "npm",
+    "git",
+    "github",
+    "registry"
+  ],
+  "author": "Ben Evans <ben@bensbit.co.uk> (http://bensbit.co.uk)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/bencevans/gitnpm-registry/issues"
+  },
+  "homepage": "https://github.com/bencevans/gitnpm-registry",
+  "dependencies": {
+    "express": "~3.4.7",
+    "extend": "~1.2.1",
+    "jade": "~0.35.0",
+    "request": "~2.30.0"
+  }
+}
